@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Learning | Ir. Shaki Saptiadi Putra, S.T., M.Eng., IPP.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <div class="header-main-info">
+      <img src="logo.png" alt="Logo Universitas Malikussaleh" class="uni-logo"/>
+      <div class="header-text">
+        <h1>Mechanical Engineering E-Learning Hub</h1>
+        <p class="lecturer-name">Ir. Shaki Saptiadi Putra, S.T., M.Eng., IPP.</p>
+        <p class="institution">Jurusan Teknik Mesin - Universitas Malikussaleh</p>
+      </div>
+    </div>
+    <div class="profile-action">
+      <a href="https://shakidc.github.io/cv/" target="_blank" class="cv-btn">
+        <span>🗎 Lihat Biodata & Portofolio Dosen</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="course-grid">
+      <div class="course-card active" data-course="fisika1">
+        <h3>Fisika I</h3>
+        <p>Prinsip dasar mekanika klasik, termodinamika, dan gejala gelombang.</p>
+      </div>
+      <div class="course-card" data-course="praktikum_fisika">
+        <h3>Praktikum Fisika</h3>
+        <p>Laboratorium, eksperimen fisik, kalibrasi, dan analisis ketidakpastian.</p>
+      </div>
+      <div class="course-card" data-course="logika_pemrograman">
+        <h3>Logika Pemrograman</h3>
+        <p>Konstruksi logika, algoritma, dan dasar komputasi teknik menggunakan Python & Octave.</p>
+      </div>
+      <div class="course-card" data-course="analisis_numerik">
+        <h3>Analisis Numerik</h3>
+        <p>Penyelesaian matematis teknik secara komputasi dan pendekatan iteratif.</p>
+      </div>
+      <div class="course-card" data-course="tenaga_listrik">
+        <h3>Teknik Tenaga Listrik</h3>
+        <p>Prinsip elektromekanik, mesin arus bolak-balik/searah, dan transformator.</p>
+      </div>
+      <div class="course-card" data-course="sistem_kendali">
+        <h3>Sistem Kendali</h3>
+        <p>Analisis respons transien, stabilitas sistem, dan tuning kontroler.</p>
+      </div>
+    </section>
+
+    <section class="content-window">
+      <div id="vlab-banner" class="vlab-container style-hidden">
+        <div class="vlab-info">
+          <h5>Virtual Lab Tersedia</h5>
+          <p>Gunakan simulator interaktif ini untuk memperkuat pemahaman praktis Anda.</p>
+        </div>
+        <a href="#" id="vlab-link" target="_blank" class="vlab-btn">🎛 Buka Virtual Lab</a>
+      </div>
+
+      <div class="tab-navigation">
+        <button class="tab-btn active" data-tab="materi">Kumpulan Materi</button>
+        <button class="tab-btn" data-tab="bahan-ajar">Bahan Ajar & Dokumen</button>
+        <button class="tab-btn" data-tab="tugas">Tugas & Proyek</button>
+      </div>
+
+      <div class="tab-display-area">
+        <div id="dynamic-content"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ShakiDC - JTM Unimal</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
