@@ -85,7 +85,10 @@ const courseData = {
       { title: "Bahan Ajar Minggu 9 Analisis Numerik.pdf", file: "./materi/numerik/Analisis Numerik - W9.pdf" },
       { title: "Contoh Kode Sumber Python Minggu 9", file: "./materi/numerik/Minggu9.ipynb" },
       { title: "Contoh Kode Sumber Octave/MATLAB Minggu 9", file: "./materi/numerik/Minggu9.m" },
-      { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/numerik/RPS Analisis Numerik.pdf" }
+      { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/numerik/RPS Analisis Numerik.pdf" },
+      { title: "Bahan Ajar Minggu 10 Analisis Numerik.pdf", file: "./materi/numerik/Analisis Numerik - W10.pdf" },
+      { title: "Contoh Kode Sumber Python Minggu 10", file: "./materi/numerik/Minggu10.ipynb" },
+      { title: "Contoh Kode Sumber Octave/MATLAB Minggu 10", file: "./materi/numerik/Minggu10.m" }
     ],
     tugas: []
   },
