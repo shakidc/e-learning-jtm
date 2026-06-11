@@ -110,7 +110,8 @@ const courseData = {
       { title: "Materi 14: Transformator Tiga Fasa", desc: "Metode hubungan belitan tiga fasa (Wye-Wye, Delta-Delta, Wye-Delta), trafo instrumen, dan aplikasi distribusi daya." }
     ],
     "bahan-ajar": [
-      { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/tenaga/RPS TTL.pdf" }
+      { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/listrik/RPS TTL.pdf" },
+      { title: "Bahan Ajar Minggu 9 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W9.pdf" }
     ],
     tugas: []
   },
