@@ -96,6 +96,7 @@ const courseData = {
     tugas: []
   },
   tenaga_listrik: {
+    virtualLab: "https://mechsimulator.com/electrical/",
     materi: [
       { title: "Materi 1: Konsep-konsep Dasar Teknik Tenaga Listrik", desc: "Sistem generasi, transmisi, distribusi tenaga listrik, serta pengenalan frekuensi kerja sistem daya." },
       { title: "Materi 2: Konsep Dasar Arus dan Tegangan", desc: "Definisi muatan listrik, arus konvensional, beda potensial, energi spesifik, daya listrik, dan sistem AC vs DC." },
@@ -114,7 +115,8 @@ const courseData = {
     ],
     "bahan-ajar": [
       { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/listrik/RPS TTL.pdf" },
-      { title: "Bahan Ajar Minggu 9 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W9.pdf" }
+      { title: "Bahan Ajar Minggu 9 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W9.pdf" },
+      { title: "Bahan Ajar Minggu 10 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W10.pdf" }
     ],
     tugas: []
   },
