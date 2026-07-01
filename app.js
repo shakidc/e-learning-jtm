@@ -119,7 +119,8 @@ const courseData = {
     "bahan-ajar": [
       { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/listrik/RPS TTL.pdf" },
       { title: "Bahan Ajar Minggu 9 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W9.pdf" },
-      { title: "Bahan Ajar Minggu 10 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W10.pdf" }
+      { title: "Bahan Ajar Minggu 10 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W10.pdf" },
+      { title: "Bahan Ajar Minggu 11 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W11.pdf" }
     ],
     tugas: []
   },
