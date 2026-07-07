@@ -127,7 +127,8 @@ const courseData = {
       { title: "Bahan Ajar Minggu 9 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W9.pdf" },
       { title: "Bahan Ajar Minggu 10 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W10.pdf" },
       { title: "Bahan Ajar Minggu 11 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W11.pdf" },
-      { title: "Bahan Ajar Minggu 12 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W12.pdf" }
+      { title: "Bahan Ajar Minggu 12 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W12.pdf" },
+      { title: "Bahan Ajar Minggu 13 Teknik Tenaga Listrik.pdf", file: "./materi/listrik/Teknik Tenaga Listrik - W13.pdf" }
     ],
     tugas: []
   },
