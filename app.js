@@ -98,7 +98,10 @@ const courseData = {
       { title: "Contoh Kode Sumber Octave/MATLAB Minggu 13", file: "./materi/numerik/Minggu13.m" },
       { title: "Bahan Ajar Minggu 14 Analisis Numerik.pdf", file: "./materi/numerik/Analisis Numerik - W14.pdf" },
       { title: "Contoh Kode Sumber Python Minggu 14", file: "./materi/numerik/Minggu14.ipynb" },
-      { title: "Contoh Kode Sumber Octave/MATLAB Minggu 14", file: "./materi/numerik/Minggu14.m" }
+      { title: "Contoh Kode Sumber Octave/MATLAB Minggu 14", file: "./materi/numerik/Minggu14.m" },
+      { title: "Bahan Ajar Minggu 15 Analisis Numerik.pdf", file: "./materi/numerik/Analisis Numerik - W15.pdf" },
+      { title: "Contoh Kode Sumber Python Minggu 15", file: "./materi/numerik/Minggu15.ipynb" },
+      { title: "Contoh Kode Sumber Octave/MATLAB Minggu 15", file: "./materi/numerik/Minggu15.m" }
     ],
     tugas: [
       { title: "Kuis 2: Sistem Persamaan Linear", desc: "Silakan kerjakan sesuai dengan panduan pada 'Soal Kuis SPL.pdf' yang terdapat pada bagian 'Bahan Ajar & Dokumen'", deadline: "25 Juni 2026 | 21:00 WIB", driveLink: "https://forms.gle/yGNj6HK84ckjrseL7" }
