@@ -49,18 +49,12 @@ const courseData = {
       { title: "Materi 7: Pemrograman Berbasis Objek (OOP)", desc: "Konsep dasar paradigma objek: pembuatan Class, Object, Constructor (__init__), Atribut, Method, serta konsep Pewarisan (Inheritance)." },
       { title: "Materi 8: Manajemen Berkas", desc: "Operasi I/O untuk membaca (read) dan menulis (write) berkas data eksternal berformat txt, csv, dan json." },
       { title: "Materi 9: Analisis & Visualisasi Data", desc: "Pengolahan data tabular menggunakan pustaka Pandas dan pembuatan grafik plot teknik menggunakan Matplotlib/Seaborn." },
-      { title: "Materi 10: Debugging & Dokumentasi", desc: "Penanganan error menggunakan Try-Except (Exception Handling), penggunaan debugger, serta penulisan Docstrings standar PEP 8." },
-      { title: "Materi 11: Studi Kasus: Permasalahan Mekanika", desc: "Implementasi program Python untuk menghitung distribusi tegangan balok, lintasan gerak peluru, dan analisis dinamika fluida." },
-      { title: "Materi 12: Studi Kasus: Analisis Numerik", desc: "Penyusunan kode program mandiri untuk penyelesaian iterasi numerik seperti metode pencarian akar persamaan non-linier." }
+      { title: "Materi 10: Debugging & Dokumentasi", desc: "Penanganan error menggunakan Try-Except (Exception Handling), penggunaan debugger, serta penulisan Docstrings standar PEP 8." }
     ],
     "bahan-ajar": [
-      { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/logpro/RPS Logika Pemrograman.pdf" },
-      { title: "Deskripsi UAS Logika Pemrograman 2025.pdf", file: "./materi/logpro/Deskripsi UAS Logika Pemrograman 2025.pdf" },
-      { title: "Soal Kuis LogPro 2025.pdf", file: "./materi/logpro/Kuis LogPro 2025.pdf" },
-      { title: "Studi Kasus UAS LogPro 2025.pdf", file: "./materi/logpro/Studi Kasus UAS LogPro 2025.pdf" },
+      { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/logpro/RPS_Logika Pemrograman(TMS0633)_OBE.pdf" },
       { title: "Modul Ajar Logika Pemrograman.pdf", file: "./materi/logpro/Modul Ajar Logika Pemrograman.pdf" },
-      { title: "Soal UTS LogPro 2025.pdf", file: "./materi/logpro/UTS LogPro 2025.pdf" },
-      { title: "Bahan Ajar Minggu 1-7 Logika Pemrograman.pdf", file: "./materi/logpro/W1-W7_LogPro.pdf" }
+      { title: "Logika Pemrograman (2026) Minggu 1.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 1.pdf" }
     ],
     tugas: []
   },
