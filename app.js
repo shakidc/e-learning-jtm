@@ -147,12 +147,21 @@ const courseData = {
       { title: "Materi 11: Analisis Kestabilan dengan Metode Routh-Hurwitz", desc: "Kriteria matematis mutlak untuk mendeteksi jumlah akar tidak stabil di belahan kanan bidang s tanpa perlu menyelesaikan akar polinomial secara langsung." }
     ],
     "bahan-ajar": [
-      { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/kendali/RPS Sistem Kendali.pdf" },
-      { title: "Bahan Ajar Minggu 1 Sistem Kendali.pdf", file: "./materi/kendali/SisKen - W1.pdf" },
-      { title: "Soal UAS Sistem Kendali 2025.pdf", file: "./materi/kendali/UAS SisKen 2025.pdf" },
-      { title: "Contoh Kode Sumber Python Sistem Kendali", file: "./materi/kendali/Kollmorgen_AKM11F.ipynb" },
-      { title: "Contoh Kode Sumber Octave/MATLAB Sistem Kendali", file: "./materi/kendali/Kollmorgen_AKM11F.m" }
+      { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/kendali/RPS_Sistem Kendali(TMS0752)_OBE.pdf" },
+      { title: "Bahan Ajar Minggu 1 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 1.pdf" }
     ],
+    tugas: []
+  },
+  mekatronika_1: {
+    virtualLab: "https://wokwi.com/",
+    materi: [
+      { title: "Materi 1: Pengantar Mekatronika", desc: "Pengenalan Sistem Mekatronika dan Contoh-contoh Aplikasinya." },
+      { title: "Materi 2: Sistem Elektronika Analog", desc: "Komponen elektronika dasar, Hukum Kirchhoff, Sirkuit AC, Daya & Transformator, Op-Amp, Pengolahan Sinyal Analog." },
+      { title: "Materi 3: Sistem Elektronika Digital", desc: "Prinsip kerja sirkuit digital, Logika Kombinasi, Timing Diagram, Boolean Diagram, Rancangan Jaringan Logika, Special Purpose IC." },
+      { title: "Materi 4: Prinsip Mikroprosesor & Mikrokontroler", desc: "Pengenalan Dasar Mikroprosesor, Pengenalan Dasar Mikrokontroler, Dasar Pemrograman untuk Mikrokontroler." },
+      { title: "Materi 5: Sensor & Aktuator", desc: "Pengenalan berbagai jenis sensor dan aktuator dalam sistem mekatronika beserta karakteristiknya, Sistem Akuisisi Data, Kendali Aktuator" }
+    ],
+    "bahan-ajar": [],
     tugas: []
   }
 };
