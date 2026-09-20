@@ -55,7 +55,8 @@ const courseData = {
       { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/logpro/RPS_Logika Pemrograman(TMS0633)_OBE.pdf" },
       { title: "Modul Ajar Logika Pemrograman.pdf", file: "./materi/logpro/Modul Ajar Logika Pemrograman.pdf" },
       { title: "Logika Pemrograman (2026) Minggu 1.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 1.pdf" },
-      { title: "Logika Pemrograman (2026) Minggu 2.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 2.pdf" }
+      { title: "Logika Pemrograman (2026) Minggu 2.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 2.pdf" },
+      { title: "Logika Pemrograman (2026) Minggu 3.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 3.pdf" }
     ],
     tugas: []
   },
@@ -150,7 +151,8 @@ const courseData = {
     "bahan-ajar": [
       { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/kendali/RPS_Sistem Kendali(TMS0752)_OBE.pdf" },
       { title: "Bahan Ajar Minggu 1 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 1.pdf" },
-      { title: "Bahan Ajar Minggu 2 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 2.pdf" }
+      { title: "Bahan Ajar Minggu 2 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 2.pdf" },
+      { title: "Bahan Ajar Minggu 3 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 3.pdf" }
     ],
     tugas: []
   },
