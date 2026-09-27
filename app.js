@@ -56,7 +56,8 @@ const courseData = {
       { title: "Modul Ajar Logika Pemrograman.pdf", file: "./materi/logpro/Modul Ajar Logika Pemrograman.pdf" },
       { title: "Logika Pemrograman (2026) Minggu 1.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 1.pdf" },
       { title: "Logika Pemrograman (2026) Minggu 2.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 2.pdf" },
-      { title: "Logika Pemrograman (2026) Minggu 3.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 3.pdf" }
+      { title: "Logika Pemrograman (2026) Minggu 3.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 3.pdf" },
+      { title: "Logika Pemrograman (2026) Minggu 4.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 4.pdf" }
     ],
     tugas: []
   },
@@ -99,9 +100,7 @@ const courseData = {
       { title: "Contoh Kode Sumber Python Minggu 15", file: "./materi/numerik/Minggu15.ipynb" },
       { title: "Contoh Kode Sumber Octave/MATLAB Minggu 15", file: "./materi/numerik/Minggu15.m" }
     ],
-    tugas: [
-      { title: "Kuis 2: Sistem Persamaan Linear", desc: "Silakan kerjakan sesuai dengan panduan pada 'Soal Kuis SPL.pdf' yang terdapat pada bagian 'Bahan Ajar & Dokumen'", deadline: "25 Juni 2026 | 21:00 WIB", driveLink: "https://forms.gle/yGNj6HK84ckjrseL7" }
-    ]
+    tugas: []
   },
   tenaga_listrik: {
     virtualLab: "https://mechsimulator.com/electrical/",
@@ -152,9 +151,12 @@ const courseData = {
       { title: "Rencana Perkuliahan Semester.pdf", file: "./materi/kendali/RPS_Sistem Kendali(TMS0752)_OBE.pdf" },
       { title: "Bahan Ajar Minggu 1 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 1.pdf" },
       { title: "Bahan Ajar Minggu 2 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 2.pdf" },
-      { title: "Bahan Ajar Minggu 3 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 3.pdf" }
+      { title: "Bahan Ajar Minggu 3 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 3.pdf" },
+      { title: "Bahan Ajar Minggu 4 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 4.pdf" }
     ],
-    tugas: []
+    tugas: [
+      { title: "Tugas 1: Pemodelan dan Dinamika Sistem", desc: "Silakan kerjakan sesuai dengan perintah tugas pada pertemuan minggu ke-3", deadline: "30 September 2026 | 23:59 WIB", driveLink: "https://forms.gle/hWPyj8LdRu2EVJz39" }
+    ]
   },
   mekatronika_1: {
     virtualLab: "https://wokwi.com/",
