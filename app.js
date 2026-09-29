@@ -133,7 +133,10 @@ const courseData = {
     tugas: []
   },
   sistem_kendali: {
-    virtualLab: "https://shakidc.github.io/simulator-sistem-kendali/",
+    virtualLab: [
+      { title: "Analisis Motor Listrik DC", url: "https://shakidc.github.io/simulator-sistem-kendali/" },
+      { title: "Suspensi Sepeda Motor", url: "https://shakidc.github.io/simulasi-suspensi-motor/" }
+    ],
     materi: [
       { title: "Materi 1: Pengantar Sistem Kendali", desc: "Definisi sistem dinamik, evolusi teknologi kontroler, serta perbandingan sistem kendali loop terbuka (open-loop) dan loop tertutup (close-loop)." },
       { title: "Materi 2: Konsep Dasar Pemodelan", desc: "Representasi matematis komponen fisik mekanik (translasional/rotasional) dan komponen elektrik menjadi model persamaan dinamis." },
@@ -183,7 +186,7 @@ const courseCards = document.querySelectorAll('.course-card');
 const tabButtons = document.querySelectorAll('.tab-btn');
 const contentDisplay = document.getElementById('dynamic-content');
 const vlabBanner = document.getElementById('vlab-banner');
-const vlabLink = document.getElementById('vlab-link');
+const vlabActions = document.getElementById('vlab-actions');
 
 // Fungsi Render Konten Dinamis (Sudah Terproteksi dari 'undefined')
 function renderContent() {
@@ -191,10 +194,42 @@ function renderContent() {
   
   // 1. Mengelola Kenampakan Banner Virtual Lab secara aman
   if (currentCourseData && currentCourseData.virtualLab) {
-    vlabBanner.classList.remove('style-hidden');
-    vlabLink.setAttribute('href', currentCourseData.virtualLab);
+      vlabBanner.classList.remove('style-hidden');
+        
+      let labs = currentCourseData.virtualLab;
+        
+      // Normalisasi format data menjadi array objek
+      if (!Array.isArray(labs)) {
+        if (typeof labs === 'string') {
+          labs = [{ title: "Buka Virtual Lab", url: labs }];
+        } else if (typeof labs === 'object' && labs !== null) {
+          labs = [labs];
+        }
+      }
+
+      // Render tombol mandiri untuk setiap Virtual Lab
+      const buttonsHTML = labs.map(lab => {
+        let title = "Buka Virtual Lab";
+        let url = "#";
+
+        if (typeof lab === 'string') {
+          url = lab;
+        } else if (typeof lab === 'object' && lab !== null) {
+          title = lab.title || "Buka Virtual Lab";
+          url = lab.url || "#";
+        }
+
+        return `
+          <a href="${url}" target="_blank" rel="noopener noreferrer" class="vlab-btn">
+            <span class="vlab-icon">🎛</span> ${title}
+          </a>
+        `;
+      }).join('');
+
+    vlabActions.innerHTML = buttonsHTML;
   } else {
     vlabBanner.classList.add('style-hidden');
+    vlabActions.innerHTML = '';
   }
 
   // Proteksi jika data mata kuliah tidak ditemukan di database
