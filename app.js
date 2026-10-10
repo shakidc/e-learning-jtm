@@ -58,7 +58,8 @@ const courseData = {
       { title: "Logika Pemrograman (2026) Minggu 2.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 2.pdf" },
       { title: "Logika Pemrograman (2026) Minggu 3.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 3.pdf" },
       { title: "Logika Pemrograman (2026) Minggu 4.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 4.pdf" },
-      { title: "Logika Pemrograman (2026) Minggu 5.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 5.pdf" }
+      { title: "Logika Pemrograman (2026) Minggu 5.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 5.pdf" },
+      { title: "Logika Pemrograman (2026) Minggu 6.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 6.pdf" }
     ],
     tugas: []
   },
@@ -157,7 +158,8 @@ const courseData = {
       { title: "Bahan Ajar Minggu 2 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 2.pdf" },
       { title: "Bahan Ajar Minggu 3 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 3.pdf" },
       { title: "Bahan Ajar Minggu 4 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 4.pdf" },
-      { title: "Bahan Ajar Minggu 5 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 5.pdf" }
+      { title: "Bahan Ajar Minggu 5 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 5.pdf" },
+      { title: "Bahan Ajar Minggu 6 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 6.pdf" }
     ],
     tugas: [
       { title: "Tugas 1: Pemodelan dan Dinamika Sistem", desc: "Silakan kerjakan sesuai dengan perintah tugas pada pertemuan minggu ke-3", deadline: "30 September 2026 | 23:59 WIB", driveLink: "https://forms.gle/hWPyj8LdRu2EVJz39" }
