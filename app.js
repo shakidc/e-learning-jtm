@@ -61,7 +61,9 @@ const courseData = {
       { title: "Logika Pemrograman (2026) Minggu 5.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 5.pdf" },
       { title: "Logika Pemrograman (2026) Minggu 6.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 6.pdf" }
     ],
-    tugas: []
+    tugas: [
+      { title: "Kuis 1", desc: "Silakan kerjakan sesuai dengan ketentuan pada halaman website kuis berikut", deadline: "15 Oktober 2026 | 12:00 WIB", driveLink: "https://shakidc.github.io/kuis1-logpro/" }
+    ]
   },
   analisis_numerik: {
     materi: [
