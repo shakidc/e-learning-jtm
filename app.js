@@ -168,7 +168,8 @@ const courseData = {
       { title: "Bahan Ajar Minggu 7 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 7.pdf" }
     ],
     tugas: [
-      { title: "Tugas 1: Pemodelan dan Dinamika Sistem", desc: "Silakan kerjakan sesuai dengan perintah tugas pada pertemuan minggu ke-3", deadline: "30 September 2026 | 23:59 WIB", driveLink: "https://forms.gle/hWPyj8LdRu2EVJz39" }
+      { title: "Tugas 1: Pemodelan dan Dinamika Sistem", desc: "Silakan kerjakan sesuai dengan perintah tugas pada pertemuan minggu ke-3", deadline: "30 September 2026 | 23:59 WIB", driveLink: "https://forms.gle/hWPyj8LdRu2EVJz39" },
+      { title: "UTS", desc: "Silakan lakukan pengumpulan sesuai dengan instruksi yang diberikan", deadline: "06 November 2026 | 21:00 WIB", driveLink: "https://forms.gle/cnmTAzosQtkgVrbf6" }
     ]
   },
   mekatronika_1: {
