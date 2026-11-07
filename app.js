@@ -62,7 +62,8 @@ const courseData = {
       { title: "Logika Pemrograman (2026) Minggu 6.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 6.pdf" },
       { title: "Logika Pemrograman (2026) Minggu 7.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 7.pdf" },
       { title: "Soal UTS Logika Pemrograman 2026.pdf", file: "./materi/logpro/Soal UTS Logika Pemrograman 2026.pdf" },
-      { title: "Logika Pemrograman (2026) Minggu 9.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 9.pdf" }
+      { title: "Logika Pemrograman (2026) Minggu 9.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 9.pdf" },
+      { title: "Logika Pemrograman (2026) Minggu 10.pdf", file: "./materi/logpro/Logika Pemrograman (2026) Minggu 10.pdf" }
     ],
     tugas: [
       { title: "Kuis 1", desc: "Silakan kerjakan sesuai dengan ketentuan pada halaman website kuis berikut", deadline: "15 Oktober 2026 | 12:00 WIB", driveLink: "https://shakidc.github.io/kuis1-logpro/" }
@@ -165,7 +166,9 @@ const courseData = {
       { title: "Bahan Ajar Minggu 4 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 4.pdf" },
       { title: "Bahan Ajar Minggu 5 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 5.pdf" },
       { title: "Bahan Ajar Minggu 6 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 6.pdf" },
-      { title: "Bahan Ajar Minggu 7 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 7.pdf" }
+      { title: "Bahan Ajar Minggu 7 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 7.pdf" },
+      { title: "Bahan Ajar Minggu 9 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 9.pdf" },
+      { title: "Bahan Ajar Minggu 10 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 10.pdf" }
     ],
     tugas: [
       { title: "Tugas 1: Pemodelan dan Dinamika Sistem", desc: "Silakan kerjakan sesuai dengan perintah tugas pada pertemuan minggu ke-3", deadline: "30 September 2026 | 23:59 WIB", driveLink: "https://forms.gle/hWPyj8LdRu2EVJz39" },
