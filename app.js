@@ -187,7 +187,8 @@ const courseData = {
       { title: "Materi 5: Sensor & Aktuator", desc: "Pengenalan berbagai jenis sensor dan aktuator dalam sistem mekatronika beserta karakteristiknya, Sistem Akuisisi Data, Kendali Aktuator" }
     ],
     "bahan-ajar": [
-      { title: "Bahan Ajar Minggu 2 Mekatronika I.pdf", file: "./materi/mekatro1/Materi Mekatronika I Minggu 2.pdf" }
+      { title: "Bahan Ajar Minggu 2 Mekatronika I.pdf", file: "./materi/mekatro1/Materi Mekatronika I Minggu 2.pdf" },
+      { title: "Bahan Ajar Minggu 10 Mekatronika I.pdf", file: "./materi/mekatro1/Materi Mekatronika I Minggu 10.pdf" }
     ],
     tugas: []
   }
