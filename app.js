@@ -170,6 +170,9 @@ const courseData = {
       { title: "Bahan Ajar Minggu 7 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 7.pdf" },
       { title: "Bahan Ajar Minggu 9 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 9.pdf" },
       { title: "Bahan Ajar Minggu 10 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 10.pdf" },
+      { title: "Contoh Komputasi Root Locus", file: "./materi/kendali/Contoh_Root_Locus.ipynb" },
+      { title: "Contoh Soal dan Pembahasan Penerapan Metode Root Locus.pdf", file: "./materi/kendali/Contoh Soal dan Pembahasan Penerapan Metode Root Locus.pdf" },
+      { title: "Contoh Soal dan Pembahasan Penerapan Metode Root Locus (Komputasi)", file: "./materi/kendali/Contoh_Soal_dan_Pembahasan_Penerapan_Metode_Root_Locus.ipynb" },
       { title: "Bahan Ajar Minggu 11 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 11.pdf" }
     ],
     tugas: [
