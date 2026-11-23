@@ -181,7 +181,10 @@ const courseData = {
     ]
   },
   mekatronika_1: {
-    virtualLab: "https://wokwi.com/",
+    virtualLab: [
+      { title: "Elektronika Dasar dan Mikrokontroler", url: "https://www.tinkercad.com/" },
+      { title: "Variasi Mikrokontroler", url: "https://wokwi.com/" }
+    ],
     materi: [
       { title: "Materi 1: Pengantar Mekatronika", desc: "Pengenalan Sistem Mekatronika dan Contoh-contoh Aplikasinya." },
       { title: "Materi 2: Sistem Elektronika Analog", desc: "Komponen elektronika dasar, Hukum Kirchhoff, Sirkuit AC, Daya & Transformator, Op-Amp, Pengolahan Sinyal Analog." },
@@ -191,7 +194,8 @@ const courseData = {
     ],
     "bahan-ajar": [
       { title: "Bahan Ajar Minggu 2 Mekatronika I.pdf", file: "./materi/mekatro1/Materi Mekatronika I Minggu 2.pdf" },
-      { title: "Bahan Ajar Minggu 10 Mekatronika I.pdf", file: "./materi/mekatro1/Materi Mekatronika I Minggu 10.pdf" }
+      { title: "Bahan Ajar Minggu 10 Mekatronika I.pdf", file: "./materi/mekatro1/Materi Mekatronika I Minggu 10.pdf" },
+      { title: "Bahan Ajar Minggu 11 Mekatronika I.pdf", file: "./materi/mekatro1/Materi Mekatronika I Minggu 11.pdf" }
     ],
     tugas: []
   }
