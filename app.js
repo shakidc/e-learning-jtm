@@ -173,7 +173,8 @@ const courseData = {
       { title: "Contoh Komputasi Root Locus", file: "./materi/kendali/Contoh_Root_Locus.ipynb" },
       { title: "Contoh Soal dan Pembahasan Penerapan Metode Root Locus.pdf", file: "./materi/kendali/Contoh Soal dan Pembahasan Penerapan Metode Root Locus.pdf" },
       { title: "Contoh Soal dan Pembahasan Penerapan Metode Root Locus (Komputasi)", file: "./materi/kendali/Contoh_Soal_dan_Pembahasan_Penerapan_Metode_Root_Locus.ipynb" },
-      { title: "Bahan Ajar Minggu 11 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 11.pdf" }
+      { title: "Bahan Ajar Minggu 11 Sistem Kendali.pdf", file: "./materi/kendali/Materi Sistem Kendali Minggu 11.pdf" },
+      { title: "Contoh Studi Kasus Implementasi Kendali PID", file: "./materi/kendali/Contoh_Studi_Kasus_Kendali_PID.ipynb" }
     ],
     tugas: [
       { title: "Tugas 1: Pemodelan dan Dinamika Sistem", desc: "Silakan kerjakan sesuai dengan perintah tugas pada pertemuan minggu ke-3", deadline: "30 September 2026 | 23:59 WIB", driveLink: "https://forms.gle/hWPyj8LdRu2EVJz39" },
