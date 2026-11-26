@@ -183,8 +183,8 @@ const courseData = {
   },
   mekatronika_1: {
     virtualLab: [
-      { title: "Elektronika Dasar dan Mikrokontroler", url: "https://www.tinkercad.com/" },
-      { title: "Variasi Mikrokontroler", url: "https://wokwi.com/" }
+      { title: "Tinkercad", url: "https://www.tinkercad.com/" },
+      { title: "Wokwi", url: "https://wokwi.com/" }
     ],
     materi: [
       { title: "Materi 1: Pengantar Mekatronika", desc: "Pengenalan Sistem Mekatronika dan Contoh-contoh Aplikasinya." },
